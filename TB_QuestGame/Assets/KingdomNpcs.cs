@@ -52,6 +52,41 @@ namespace TB_QuestGame
                     "Have at you!",
                     "None shall pass!"
                 }
+            },
+
+            new Civilian
+            {
+                Id = 2,
+                Name = "King Arthur",
+                MapLocationID = 5,
+                Description = "A brave man, leader of the humans. He wears a crown and royal armor.",
+                Messages = new List<string>
+                {
+                    "I am Arthur, King of the Britons.",
+                    "Bring me the Holy Grail."
+                }
+            },
+
+            new Civilian
+            {
+                Id = 4,
+                Name = "Princess Ruto",
+                MapLocationID = 2,
+                Description = "A young Xoran. Her father leads the xoran people.",
+                Messages = new List<string>
+                {
+                    "Hi, I'm Princess Ruto.",
+                    "Please retrieve our precious stone from the temple.",
+                    "Be carefull."
+                }
+            },
+
+            new Civilian
+            {
+                Id = 5,
+                Name = "Morpha",
+                MapLocationID = 6,
+                Description = "A strange gelatinous monster with a single eye that moves throughout its body."
             }
         };
     }

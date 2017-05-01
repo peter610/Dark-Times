@@ -54,7 +54,9 @@
     <Compile Include="ConsoleUtilities\ConsoleWindowHelper.cs" />
     <Compile Include="Controllers\Controller.cs" />
     <Compile Include="Models\Character.cs" />
-    <Compile Include="Models\Civilian.cs" />
+    <Compile Include="Models\Civilian.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="Models\Enum\PlayerAction.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
